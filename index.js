@@ -1,4 +1,4 @@
-alert("HELLO WORLD")
+console.log(document.getElementById("main"))
 function init() {
   handlebarsSetup()
   var formTemplate = document.getElementById("recipe-form-template").innerHTML
