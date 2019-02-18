@@ -2,7 +2,7 @@ function init() {
   handlebarsSetup()
   var formTemplate = document.getElementById("recipe-form-template").innerHTML
   var template = Handlebars.compile(formTemplate)
-  document.getElementsByTagName("main")[0].innerHTML = "test"
+  document.getElementById("main").innerHTML = "test"
 }
 
 function createRecipe() {
