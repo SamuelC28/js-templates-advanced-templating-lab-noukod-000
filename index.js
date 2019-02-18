@@ -1,3 +1,4 @@
+alert("HELLO WORLD")
 function init() {
   handlebarsSetup()
   var formTemplate = document.getElementById("recipe-form-template").innerHTML
