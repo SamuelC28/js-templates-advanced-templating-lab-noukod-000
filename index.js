@@ -1,7 +1,7 @@
 console.log(document.getElementById("main"))
 function init() {
   handlebarsSetup()
-    alert("HANDLEBARS")
+  alert("HANDLEBARS")
   var formTemplate = document.getElementById("recipe-form-template").innerHTML
   var template = Handlebars.compile(formTemplate)
   document.getElementById("main").innerHTML = "test"
